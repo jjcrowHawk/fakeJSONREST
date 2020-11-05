@@ -1,133 +1,67 @@
 {
-2
   "scans": {
-3
     "problems": {
-4
       "devices": {
-5
        "problem": 'Tiene 4 dispositivos con problemas de señal',
-6
        "image": 'problems/dispositivoIcon.png',
-7
        "solution": [
-8
         {
-9
           "text": 'Verificar cada dispositivo, usando la IP como referencia',
-10
         },
-11
         {
-12
           "text": 'Cambiar la ubicación de cada dispositivo lo más cerca posible a su router',
-13
         },
-14
         {
-15
           "text": 'Dar click en el botón hacer test y esperar',
-16
         },
-17
         {
-18
           "text": 'Si aparece un visto, la señal del dispositivo ha mejorado',
-19
         }
-20
        ],
-21
        "data": [
-22
         { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' },
-23
         { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' },
-24
         { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' }
-25
        ]
-26
       },
-27
       "channel": {
-28
         "problem": 'Tienes el Canal de Red saturado, con otras redes',
-29
         "image": 'problems/wifi.png',
-30
        "solution": [
-31
         {
-32
           "text": 'Presionamos el boton',
-33
           "image": 'problems/channelButton.png'
-34
         },
-35
         {
-36
           "text": 'Esperamos a que procese y termine',
-37
         },
-38
        ]
-39
       },
-40
       "signal": {
-41
         "problem": 'Tienes dispositivos de red dentro de tu hogar',
-42
         "image": 'problems/aps.png',
-43
         "solution": [
-44
           {
-45
             "text": 'Nos acercamos al dispositivo de red',
-46
           },
-47
           {
-48
             "text": 'Presionamos el botón',
-49
             "image": 'problems/signalButton.png'
-50
           },
-51
         ]
-52
       },
-53
       "password": {
-54
         "problem": 'Sospechamos que hay muchos dispositivos o intrusos',
-55
         "image": 'problems/wifi.png',
-56
         "solution": [
-57
           {
-58
             "text": 'Ingrese en el campo la nueva contraseña para su red',
-59
           },
-60
           {
-61
             "text": 'Presionamos el botón cambiar y esperamos la confirmación',
-62
           },
-63
         ]
-64
       }
-65
     }
-66
   }
-67
 }
