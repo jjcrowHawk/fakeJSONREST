@@ -67,14 +67,7 @@
    "moduloSinProblemas": {
      "problem": "Este módulo se encuentra funcionando correctamente",
       "skip": true,
-     "image": "problems/wifi.png",
-     "solution": [
-       {
-         "text": "Ingrese en el campo la nueva contraseña para su red"
-       },
-       {
-         "text": "Presionamos el botón cambiar y esperamos la confirmación"
-       }
-     ]
+     "image": "",
+     "solution": []
    }
 }
