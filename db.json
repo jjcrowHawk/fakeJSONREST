@@ -1,6 +1,7 @@
 {
    "devices": {
-    "problem": "Tiene 4 dispositivos con problemas de señal",
+    "problem": "Detectamos que tiene muchos dispositivos conectados a su router",
+    "description": "Tiene 4 dispositivos con problemas de señal",
     "skip": false,
     "image": "problems/dispositivoIcon.png",
     "solution": [
@@ -25,6 +26,7 @@
    },
    "channel": {
      "problem": "Tienes el Canal de Red saturado, con otras redes",
+     "description": "En tu hogar existen redes que, saturan o causan interferencia",
       "skip": false,
      "image": "problems/wifi.png",
     "solution": [
@@ -39,6 +41,7 @@
    },
    "signal": {
      "problem": "Tienes dispositivos de red dentro de tu hogar",
+     "description": "En tu hogar existen routers, switchs, aps o repetidores",
       "skip": false,
      "image": "problems/aps.png",
      "solution": [
@@ -53,6 +56,7 @@
    },
    "password": {
      "problem": "Sospechamos que hay muchos dispositivos o intrusos",
+     "description": "Compartiste tu password con algún desconocido o tienes intrusos",
       "skip": false,
      "image": "problems/wifi.png",
      "solution": [
@@ -66,6 +70,7 @@
    },
    "moduloSinProblemas": {
      "problem": "Este módulo se encuentra funcionando correctamente",
+     "description": "",
       "skip": true,
      "image": "",
      "solution": []
