@@ -2,63 +2,63 @@
   "scans": {
     "problems": {
       "devices": {
-       "problem": 'Tiene 4 dispositivos con problemas de señal',
-       "image": 'problems/dispositivoIcon.png',
+       "problem": "Tiene 4 dispositivos con problemas de señal",
+       "image": "problems/dispositivoIcon.png",
        "solution": [
         {
-          "text": 'Verificar cada dispositivo, usando la IP como referencia',
+          "text": "Verificar cada dispositivo, usando la IP como referencia",
         },
         {
-          "text": 'Cambiar la ubicación de cada dispositivo lo más cerca posible a su router',
+          "text": "Cambiar la ubicación de cada dispositivo lo más cerca posible a su router",
         },
         {
-          "text": 'Dar click en el botón hacer test y esperar',
+          "text": "Dar click en el botón hacer test y esperar",
         },
         {
-          "text": 'Si aparece un visto, la señal del dispositivo ha mejorado',
+          "text": "Si aparece un visto, la señal del dispositivo ha mejorado",
         }
        ],
        "data": [
-        { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' },
-        { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' },
-        { "ip": '120.77.16.80.2',"mac": '0200:0000:0000:0000', "status": 'bad' }
+        { "ip": "120.77.16.80.2","mac": "0200:0000:0000:0000", "status": "bad" },
+        { "ip": "120.77.16.80.2","mac": "0200:0000:0000:0000", "status": "bad" },
+        { "ip": "120.77.16.80.2","mac": "0200:0000:0000:0000", "status": "bad" }
        ]
       },
       "channel": {
-        "problem": 'Tienes el Canal de Red saturado, con otras redes',
-        "image": 'problems/wifi.png',
+        "problem": "Tienes el Canal de Red saturado, con otras redes",
+        "image": "problems/wifi.png",
        "solution": [
         {
-          "text": 'Presionamos el boton',
-          "image": 'problems/channelButton.png'
+          "text": "Presionamos el boton",
+          "image": "problems/channelButton.png"
         },
         {
-          "text": 'Esperamos a que procese y termine',
+          "text": "Esperamos a que procese y termine",
         },
        ]
       },
       "signal": {
-        "problem": 'Tienes dispositivos de red dentro de tu hogar',
-        "image": 'problems/aps.png',
+        "problem": "Tienes dispositivos de red dentro de tu hogar",
+        "image": "problems/aps.png",
         "solution": [
           {
-            "text": 'Nos acercamos al dispositivo de red',
+            "text": "Nos acercamos al dispositivo de red",
           },
           {
-            "text": 'Presionamos el botón',
-            "image": 'problems/signalButton.png'
+            "text": "Presionamos el botón",
+            "image": "problems/signalButton.png"
           },
         ]
       },
       "password": {
-        "problem": 'Sospechamos que hay muchos dispositivos o intrusos',
-        "image": 'problems/wifi.png',
+        "problem": "Sospechamos que hay muchos dispositivos o intrusos",
+        "image": "problems/wifi.png",
         "solution": [
           {
-            "text": 'Ingrese en el campo la nueva contraseña para su red',
+            "text": "Ingrese en el campo la nueva contraseña para su red",
           },
           {
-            "text": 'Presionamos el botón cambiar y esperamos la confirmación',
+            "text": "Presionamos el botón cambiar y esperamos la confirmación",
           },
         ]
       }
