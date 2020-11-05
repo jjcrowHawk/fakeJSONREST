@@ -34,7 +34,7 @@
         },
         {
           "text": "Esperamos a que procese y termine"
-        },
+        }
        ]
       },
       "signal": {
@@ -47,7 +47,7 @@
           {
             "text": "Presionamos el botón",
             "image": "problems/signalButton.png"
-          },
+          }
         ]
       },
       "password": {
@@ -59,7 +59,7 @@
           },
           {
             "text": "Presionamos el botón cambiar y esperamos la confirmación"
-          },
+          }
         ]
       }
     }
