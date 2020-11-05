@@ -1,6 +1,7 @@
 {
    "devices": {
     "problem": "Tiene 4 dispositivos con problemas de señal",
+    "skip": false,
     "image": "problems/dispositivoIcon.png",
     "solution": [
      {
@@ -24,6 +25,7 @@
    },
    "channel": {
      "problem": "Tienes el Canal de Red saturado, con otras redes",
+      "skip": false,
      "image": "problems/wifi.png",
     "solution": [
      {
@@ -37,6 +39,7 @@
    },
    "signal": {
      "problem": "Tienes dispositivos de red dentro de tu hogar",
+      "skip": false,
      "image": "problems/aps.png",
      "solution": [
        {
@@ -50,6 +53,20 @@
    },
    "password": {
      "problem": "Sospechamos que hay muchos dispositivos o intrusos",
+      "skip": false,
+     "image": "problems/wifi.png",
+     "solution": [
+       {
+         "text": "Ingrese en el campo la nueva contraseña para su red"
+       },
+       {
+         "text": "Presionamos el botón cambiar y esperamos la confirmación"
+       }
+     ]
+   },
+   "moduloSinProblemas": {
+     "problem": "Este módulo se encuentra funcionando correctamente",
+      "skip": true,
      "image": "problems/wifi.png",
      "solution": [
        {
