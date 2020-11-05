@@ -6,16 +6,13 @@
     "image": "problems/dispositivoIcon.png",
     "solution": [
      {
-       "text": "Verificar cada dispositivo, usando la IP como referencia"
+       "text": "De click en el botón mostrar dispositivos para visualizar los dispositivos con fallas"
      },
      {
-       "text": "Cambiar la ubicación de cada dispositivo lo más cerca posible a su router"
+       "text": "Para cada dispostivo, debe identificarlo por su IP y tratar de acercarlo, en la medida de lo posible, al router"
      },
      {
-       "text": "Dar click en el botón hacer test y esperar"
-     },
-     {
-       "text": "Si aparece un visto, la señal del dispositivo ha mejorado"
+       "text": "Dar click en el botón hacer test y esperar. Si aparece un visto, la señal del dispositivo ha mejorado"
      }
     ],
     "data": [
