@@ -68,17 +68,6 @@
        }
      ]
    },
-   "velocity": {
-     "problem": "Se debe analizar la velocidad de su conexión y su rendimiento",
-     "description": "Analizaremos cuánto ha mejorado su velocidad luego de la autogestión",
-     "skip": false,
-     "image": "problems/velocity.png",
-     "solution": [
-       {
-         "text": "De click al botón ANALIZAR, y espere hasta obtener el resultado del análisis"
-       }
-     ]
-   },
    "moduloSinProblemas": {
      "problem": "Este módulo se encuentra funcionando correctamente",
      "description": "",
