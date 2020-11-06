@@ -48,6 +48,9 @@
        {
          "text": "Presionamos el botón",
          "image": "problems/signalButton.png"
+       },
+       {
+         "text": "Si marcar entre -40db y -50db tu dispositivo está funcionando correctamente, sino acércalo más al módem del proveedor" 
        }
      ]
    },
@@ -62,6 +65,17 @@
        },
        {
          "text": "Presionamos el botón cambiar y esperamos la confirmación"
+       }
+     ]
+   },
+   "velocity": {
+     "problem": "Se debe analizar la velocidad de su conexión y su rendimiento",
+     "description": "Analizaremos cuánto ha mejorado su velocidad luego de la autogestión",
+     "skip": false,
+     "image": "problems/velocity.png",
+     "solution": [
+       {
+         "text": "De click al botón ANALIZAR, y espere hasta obtener el resultado del análisis"
        }
      ]
    },
