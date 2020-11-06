@@ -29,7 +29,7 @@
     "solution": [
      {
        "text": "Presionamos el boton",
-       "image": "problems/channelButton.png"
+       "image": "problems/btnRouter.png"
      },
      {
        "text": "Esperamos a que procese y termine"
