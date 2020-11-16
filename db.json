@@ -15,6 +15,14 @@
        "text": "Dar click en el botón hacer test y esperar. Si aparece un visto, la señal del dispositivo ha mejorado"
      }
     ],
+    "aditional_info": {
+       "description" : "Hemos identificado que tienes dispositivos conectados a tu router que pueden tener mala señal. Esto puede darse por la distancia del dispositivo hacia el router, interferencias, incluso desperfectos de ciertos equipos.",
+       "suggestions": [
+          "Haga click en el botón 'mostrar dispositivos' para identificar los equipos con problemas de conexión. Una vez identificados acerque dichos equipos a su router y vuelva a correr un escaneo para verificar si el problema se solucionó.",
+          "Si te has conectado a tu router, pero tienes muy poca cobertura, será necesario que compres un repetidor Wi-Fi, o mejor aún, comprar un sistema Wi-Fi Mesh para tu hogar que te permitirá mejorar la conexión del mismo."
+       ],
+       "support_phone_number": "05-247-290"
+    },
     "data": [
      { "ip": "192.168.1.10","mac": "0202:03A0:00012:003A", "status": "bad" },
      { "ip": "192.168.1.55","mac": "0220:05F0:0120:0000", "status": "bad" },
@@ -34,7 +42,14 @@
      {
        "text": "Esperamos a que procese y termine"
      }
-    ]
+    ],
+    "aditional_info": {
+       "description" : "Hemos detectado, que su red Wifi se encuentra en un canal con mucha interferencia. Esto sucede cuando otras redes se encuentran en el mismo canal que el suyo y puede afectar considerablemente la velocidad de su red",
+       "suggestions": [
+          "Intente cambiar su router a un canal que no se encuentra saturado."
+       ],
+       "support_phone_number": "05-247-290"
+    }
    },
    "signal": {
      "problem": "Tienes dispositivos de red dentro de tu hogar",
@@ -52,7 +67,14 @@
        {
          "text": "Si marcar entre -40db y -50db tu dispositivo está funcionando correctamente, sino acércalo más al módem del proveedor" 
        }
-     ]
+     ],
+     "aditional_info": {
+       "description" : "Una de las principales limitaciones de las redes Wifi es la cobertura. Existen tres bandas: la 2.4 GHz, que tendrá mayor cobertura, las de 5 GHz y 6 GHz mayor velocidad, pero menor cobertura.",
+       "suggestions": [
+          "Verificar si su router puede conectarse a la banda 5GHz o 6 GHz en caso de que quiera una mejor velocidad.Para configurar la frecuencia de su Router, debe ingresar al mismo y elegir la opción deseada"
+       ],
+       "support_phone_number": "05-247-290"
+     }
    },
    "password": {
      "problem": "Sospechamos que hay muchos dispositivos o intrusos",
@@ -66,13 +88,26 @@
        {
          "text": "Presionamos el botón cambiar y esperamos la confirmación"
        }
-     ]
+     ],
+     "aditional_info": {
+       "description" : "Hemos detectado que tiene muchos dispositivos conectados a su Router. Es importante saber que la cantidad de equipos conectados y sus distintos usos, afectan el rendimiento de su red",
+       "suggestions": [
+          "Para este tipo de problema, recomendamos en primer lugar, que verifique que no haya equipos desconocidos conectados a su red Wifi. En tal caso, le recomendamos cambiar la contraseña para impedir que equipos extraños se conecten a su red y perjudique su servicio",
+          "Por otra parte, si usted tiene muchos equipos conectados, con un alto uso le sugerimos adquirir un router que se ajuste a sus necesidades y aumentar su plan contratado"
+       ],
+       "support_phone_number": "05-247-290"
+     }
    },
    "moduloSinProblemas": {
      "problem": "Este módulo se encuentra funcionando correctamente",
      "description": "",
       "skip": true,
      "image": "",
-     "solution": []
+     "solution": [],
+     "aditional_info": {
+       "description" : "No se han encontrado problemas en este módulo",
+       "suggestions": [],
+       "support_phone_number": "05-247-290"
+     }
    }
 }
